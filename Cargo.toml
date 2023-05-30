@@ -11,5 +11,6 @@ crate-type = ["cdylib"]
 [dependencies]
 # Works:
 #wit-bindgen = { git = "https://github.com/bytecodealliance/wit-bindgen", tag="wit-bindgen-0.6.0" }
-# Does not work:
+# Do not work:
 wit-bindgen = { git = "https://github.com/bytecodealliance/wit-bindgen", tag="wit-bindgen-0.7.0" }
+#wit-bindgen = { git = "https://github.com/bytecodealliance/wit-bindgen", branch="main" }
